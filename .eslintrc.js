@@ -8,5 +8,6 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     'prettier/prettier': ['error', { EndOfLine: 'auto' }],
+    'no-console': 'off',
   },
 }
